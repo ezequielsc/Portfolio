@@ -1,7 +1,7 @@
 /*------------------Configurações gerais*/
 *{
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     box-sizing: border-box;
 }
 body{
@@ -43,9 +43,7 @@ button:hover,.btn-enviar input:hover{
 }
 
 /*------------------Configurações de cabeçalho*/
-header {
-    padding: 0px 4%;
-}
+
 header  > .interface{
     display: flex;
     align-items: center;
@@ -76,23 +74,27 @@ header .btn-contato button:hover{
 /*------------------Estilo topo do site*/
 section.topo-do-site{
     padding: 40px 4%;
+    padding-top: 10px;
 }
 section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 20px;
 }
 .topo-do-site h1{
     color:#fff;
-    font-size: 42px;
+    font-size: 40px;
     line-height: 40px;
+    text-align: left;
 }
 .topo-do-site .txt-topo-site span{
     color: #00ff08;
 }
 .topo-do-site .txt-topo-site p{
     color:#fff;
-    margin: 40px 0;
+    text-align: justify;
+    font-size: 20px;
+    padding: 30px 0px;
 }
 section.topo-do-site .img-topo-site img{
     position: relative;
@@ -108,8 +110,8 @@ section.topo-do-site .img-topo-site img{
 }
 
 /*------------------CONFIGURAÇÕES ESPECIALIDADES*/
-section .especialidades{
-    padding: 40px 4%;
+section.especialidades{
+    padding: 40px;
 }
 section.especialidades .flex{
     gap: 60px;
@@ -134,6 +136,9 @@ section.especialidades .flex{
     font-size: 30px;
     margin: 15px 0;
 }
+.especialidades .especialidades-box p{
+    text-align: justify;
+}
 
 /*------------------Configurações sobre*/
 section.sobre{
@@ -147,10 +152,13 @@ section.sobre .flex{
     color: #fff;
 }
 .sobre .txt-sobre h2{
-    font-size: 40px;
+    font-size: 48px;
+    line-height: 30px;
+    text-align: center;
 }
 .sobre .txt-sobre h2 span{
     color: #00ff08;
+    font-size: 35px;
     display: block;
 }
 .btn-social button{
@@ -164,11 +172,15 @@ section.sobre .flex{
     margin: 0 5px;
     transition: 7ms;
 }
-
+.sobre .txt-sobre p{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 25px;
+}
 
 /*------------------Configurações de portifolio*/
 section.portfolio{
-    padding: 80px 4%;
+    padding: 30px 4%;
 }
 section.portfolio .flex{
     gap: 80px;
@@ -186,9 +198,6 @@ section.portfolio .flex{
 }
 .img-port:hover{
     background-position: 100% 100%;
-}
-#titulo{
-    padding-bottom: 20px;
 }
 .overlay{
     position: absolute;
@@ -223,6 +232,9 @@ form{
     flex-direction: column;
     gap: 10px;
 }
+.titulo{
+    margin-bottom: 70px;
+}
 form input,textarea{
     width:  350px;
     background-color: #202020;
@@ -240,7 +252,7 @@ textarea{
 form .btn-enviar{
     margin-top: 15px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 form .btn-enviar button{
     border: none;
@@ -255,9 +267,7 @@ form .btn-enviar button{
 }
 
 /*------------------Configurações de footer*/
-footer{
-    padding: 20px 4%;
-}
+
 footer .flex{
     justify-content: space-between;
 }
@@ -277,7 +287,7 @@ footer .line-footer p a{
 /*------------------Configurações mobile*/
 @media screen and (max-width: 1020px){
 
-/*Configurações gerais*/
+/*------------------Configurações gerais*/
     .flex{
         flex-direction: column;
     }
@@ -288,7 +298,7 @@ footer .line-footer p a{
         flex-direction: column;
     }
     
-/*configurações menu*/
+/*------------------configurações menu*/
     .menu-desktop,
     .btn-contato{
         display: none;
