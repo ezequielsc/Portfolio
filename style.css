@@ -11,6 +11,7 @@ body{
 .interface{
     max-width: 1100px;
     margin: 0 auto;
+    padding: 60px;
 }
 .flex{
     display: flex;
@@ -108,8 +109,11 @@ section.topo-do-site .img-topo-site img{
 }
 
 ------------------/*CONFIGURAÇÕES ESPECIALIDADES*/
-section.especialidades{
+section .especialidades{
     padding: 40px 4%;
+}
+section.especialidades .interface{
+    padding: 60px;
 }
 section.especialidades .flex{
     gap: 60px;
@@ -118,8 +122,8 @@ section.especialidades .flex{
     color: #fff;
     padding: 40px;
     border-radius: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     transition: 25ms;
 }
 .especialidades .especialidades-box:hover{
