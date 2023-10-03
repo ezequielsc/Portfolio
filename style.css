@@ -1,4 +1,4 @@
-------------------/*Configurações gerais*/
+/*------------------Configurações gerais*/
 *{
     margin: 0;
     padding: 10px;
@@ -11,7 +11,6 @@ body{
 .interface{
     max-width: 1100px;
     margin: 0 auto;
-    padding: 60px;
 }
 .flex{
     display: flex;
@@ -41,11 +40,11 @@ h2.titulo span{
 button:hover,.btn-enviar input:hover{
     box-shadow: 0px 0px 8px #00ff08;
     transform: scale(1.05);
-    }
+}
 
-------------------/*Configurações de cabeçalho*/
+/*------------------Configurações de cabeçalho*/
 header {
-    padding: 40px 4%;
+    padding: 0px 4%;
 }
 header  > .interface{
     display: flex;
@@ -74,7 +73,7 @@ header .btn-contato button:hover{
 }
 
 
-------------------/*Estilo topo do site*/
+/*------------------Estilo topo do site*/
 section.topo-do-site{
     padding: 40px 4%;
 }
@@ -108,12 +107,9 @@ section.topo-do-site .img-topo-site img{
     }
 }
 
-------------------/*CONFIGURAÇÕES ESPECIALIDADES*/
+/*------------------CONFIGURAÇÕES ESPECIALIDADES*/
 section .especialidades{
     padding: 40px 4%;
-}
-section.especialidades .interface{
-    padding: 60px;
 }
 section.especialidades .flex{
     gap: 60px;
@@ -139,7 +135,7 @@ section.especialidades .flex{
     margin: 15px 0;
 }
 
-------------------/*Configurações sobre*/
+/*------------------Configurações sobre*/
 section.sobre{
     padding: 40px 4%;
 }
@@ -168,11 +164,9 @@ section.sobre .flex{
     margin: 0 5px;
     transition: 7ms;
 }
-.sobre .img-sobre{
-    padding: 40px 4%;
-}
 
-------------------/*Configurações de portifolio*/
+
+/*------------------Configurações de portifolio*/
 section.portfolio{
     padding: 80px 4%;
 }
@@ -192,6 +186,9 @@ section.portfolio .flex{
 }
 .img-port:hover{
     background-position: 100% 100%;
+}
+#titulo{
+    padding-bottom: 20px;
 }
 .overlay{
     position: absolute;
@@ -214,9 +211,9 @@ section.portfolio .flex{
     opacity: 0;
 }
 
-------------------/*Configurações de formulario*/
+/*------------------Configurações de formulario*/
 section.formulario{
-    padding: 40px 4%;
+    padding: 30px 4%;
 }
 form{
     max-width: 500px;
@@ -257,15 +254,12 @@ form .btn-enviar button{
     transition: 0.1s;
 }
 
-------------------/*Configurações de footer*/
+/*------------------Configurações de footer*/
 footer{
-    padding:40px 4%;
+    padding: 20px 4%;
 }
 footer .flex{
     justify-content: space-between;
-}
-footer .line-footer{
-    padding: 20px 0 ;
 }
 .borda{
     border-top:solid #00ff08 2px;
@@ -277,11 +271,10 @@ footer .line-footer p i {
 footer .line-footer p a{
     color: #fff;
     text-decoration: none;
-    padding-left: 10px;
 }
 
 
-/*Configurações mobile*/
+/*------------------Configurações mobile*/
 @media screen and (max-width: 1020px){
 
 /*Configurações gerais*/
