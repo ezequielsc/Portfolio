@@ -225,7 +225,7 @@ section.formulario{
     padding: 30px 4%;
 }
 form{
-    max-width: 500px;
+    max-width: 350px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -284,17 +284,18 @@ footer .line-footer p a{
 }
 
 
-/*------------------Configurações mobile*/
+/*------------------Configurações mobile------------------*/
 @media screen and (max-width: 1020px){
 
 /*------------------Configurações gerais*/
+    *{
+        padding: 0px;
+    }   
+    .interface{
+        max-width: 100%;
+        margin: 0 auto;
+    }
     .flex{
-        flex-direction: column;
-    }
-    .topo-do-site .flex{
-        flex-direction: column-reverse;
-    }
-    section.sobre .flex{
         flex-direction: column;
     }
     
@@ -302,5 +303,70 @@ footer .line-footer p a{
     .menu-desktop,
     .btn-contato{
         display: none;
+    }
+
+/*------------------configurações topo do site*/
+    section.topo-do-site{
+        padding: 20px 4%;
+        padding-top: 0px;
+    }
+    section.sobre .flex{
+        flex-direction: column;
+    }
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+    .topo-do-site h1{
+        font-size: 30px;
+    }
+    .topo-do-site p{
+        max-width: 100%;  
+    }
+    .topo-do-site img{
+        max-width: 100%;  
+    }
+
+/*------------------configurações especialidades*/
+    section.especialidades{
+        padding: 40px;
+    }
+    section.especialidades .titulo{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .especialidades .especialidades-box{
+        color: #fff;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        transition: 25ms;
+    }
+
+/*------------------configurações sobre*/
+    .sobre img{
+        max-width: 100%;  
+    }
+    .sobre .txt-sobre h2{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .btn-social button{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+/*------------------configurações sobre*/
+    .img-port{
+        width: 100%; 
+    }
+
+/*------------------configurações de formulario*/
+    section.formulario form{
+        max-width: 100%;
+    }
+
+/*------------------configurações de footer*/
+    footer{
+        padding-bottom: 15px;
     }
 }
