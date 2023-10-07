@@ -23,7 +23,6 @@ body{
     font-weight: 600;
     background-color: #00ff08;
     border: none;
-
 }
 .btn-contato button:hover{
     box-shadow: 0px 0px 8px #00ff08;
@@ -69,7 +68,6 @@ header nav ul li{
 header .btn-contato button:hover{
     box-shadow: 0px 0px 8px #00ff08;
 }
-
 
 /*------------------Estilo topo do site*/
 section.topo-do-site{
@@ -267,7 +265,6 @@ form .btn-enviar button{
 }
 
 /*------------------Configurações de footer*/
-
 footer .flex{
     justify-content: space-between;
 }
@@ -304,6 +301,14 @@ footer .line-footer p a{
     .btn-contato{
         display: none;
     }
+    header .logo{
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    header .logo img{
+        width: 300px;
+    }
 
 /*------------------configurações topo do site*/
     section.topo-do-site{
@@ -318,6 +323,7 @@ footer .line-footer p a{
     }
     .topo-do-site h1{
         font-size: 30px;
+        text-align: center;
     }
     .topo-do-site p{
         max-width: 100%;  
