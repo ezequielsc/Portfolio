@@ -279,16 +279,23 @@ form .btn-enviar button{
 footer .flex{
     justify-content: space-between;
 }
-.borda{
+footer .logo-footer img{
+    margin-left: 10px;
+}
+footer .borda{
     border-top:solid #00ff08 2px;
 }
-footer .line-footer p i {
+footer .line-footer p {
     color: #00ff08;
     font-size: 22px;
+}
+footer .btn-social{
+    margin-left: 10px;
 }
 footer .line-footer p a{
     color: #fff;
     text-decoration: none;
+    margin: 10px;
 }
 
 
