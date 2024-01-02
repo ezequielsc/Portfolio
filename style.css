@@ -87,6 +87,10 @@ section.topo-do-site .flex{
     font-size: 40px;
     line-height: 40px;
     text-align: left;
+} 
+.topo-do-site #logo-img img{
+    display: flex;
+    width: 100px;
 }
 .topo-do-site .txt-topo-site span{
     color: #00ff08;
@@ -99,8 +103,8 @@ section.topo-do-site .flex{
 }
 section.topo-do-site .img-topo-site img{
     position: relative;
-    width: auto;
-    height: auto;
+    width: 500px;
+    height: 540px;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 @keyframes flutuar{
