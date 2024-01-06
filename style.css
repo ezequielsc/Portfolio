@@ -309,6 +309,17 @@ footer .line-footer p a{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*------------------Configurações mobile------------------*/
 @media screen and (max-width: 1020px){
 
@@ -357,7 +368,9 @@ footer .line-footer p a{
         max-width: 100%;  
     }
     .topo-do-site img{
-        max-width: 100%;  
+        max-width: 350px;
+        max-height: 390px;  
+        margin: 20px 0px;
     }
 
 /*------------------configurações especialidades*/
